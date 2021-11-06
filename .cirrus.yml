@@ -3,7 +3,7 @@ env:
     SPAM: https://raw.githubusercontent.com/XelXen/Ubuntu-Tmate/master/spam.sh 
 
 task:
-  name: "CIRRUS SSH"
+  name: "CIRRUS SSH - Ubuntu"
   timeout_in: 960m  
   container:
       image: ubuntu:20.04
