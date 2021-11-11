@@ -4,9 +4,9 @@ env:
 
 task:
   name: "CIRRUS SSH - Ubuntu"
-  timeout_in: 960m  
+  timeout_in: 20m  
   container:
-      image: ubuntu:20.04
+      image: fr3akyphantom/droid-builder:focal
       cpu: 8
       memory: 32G
         
