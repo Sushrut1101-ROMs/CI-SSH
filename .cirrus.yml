@@ -4,9 +4,9 @@ env:
 
 task:
   name: "CIRRUS SSH - Ubuntu"
-  timeout_in: 5m  
+  timeout_in: 10m 
   container:
-      image: ubuntu:20.04
+      image: apon77/aosp:cirrus
       cpu: 8
       memory: 32G
         
