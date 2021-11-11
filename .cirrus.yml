@@ -6,7 +6,7 @@ task:
   name: "CIRRUS SSH - Ubuntu"
   timeout_in: 10m 
   container:
-      image: apon77/aosp:cirrus
+      image: fr3akyphantom/droid-builder:focal
       cpu: 8
       memory: 32G
         
